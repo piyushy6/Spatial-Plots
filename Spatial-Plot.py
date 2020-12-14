@@ -6,7 +6,7 @@ import matplotlib.image as mpimg
 import matplotlib.ticker as mtick
 
 def load_housing_data():
-    csv_path = os.path.join("11-November.csv")
+    csv_path = os.path.join("Spatial-Plot.csv")
     return pd.read_csv(csv_path)
 housing = load_housing_data()
 housing.head()
